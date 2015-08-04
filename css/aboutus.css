@@ -1,0 +1,79 @@
+#header{
+background-color: #1F0F00;
+}
+
+#toplinks a:link, a:visited {
+    display: block;
+    width: 120px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #990000;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#toplinks a:hover, a:active {
+    background-color: #990000;
+}
+
+body{
+background-color:#FFFFFF;
+
+}
+
+#header{
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+#logo{
+    margin-left: 80px;
+    
+}
+#image{
+    float: right;
+    padding-right:50px; 
+}
+#paragraph{
+    text-align: center;
+    margin-left:200px;
+    margin-right:200px;
+}
+h1{
+    text-align: center;
+    font-size:48px;
+}
+
+#contact{
+    margin-left:100px;
+}
+
+#links{
+    float:right;
+}
+#toplinks{
+    float:right;
+    padding-right:30px;
+    padding-top:20px;
+}
+
+#contact{
+    float:left;
+    padding-left:100px;
+}
+#image{
+    margin-right:50px;
+}
+
+#toplinks ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#toplinks li {
+    float: left;
+}

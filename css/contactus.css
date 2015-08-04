@@ -1,0 +1,88 @@
+#header{
+background-color: #1F0F00;
+}
+
+#toplinks a:link, a:visited {
+    display: block;
+    width: 120px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #990000;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#toplinks a:hover, a:active {
+    background-color: #990000;
+}
+
+body{
+background-color:#FFFFFF;
+}
+
+#header{
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+#logo{
+    margin-left: 80px;
+    
+}
+h2{
+    font-size:48px;
+}
+label{
+    font-size:20px;
+    margin-left:5px;
+}
+#name{
+   height: 40px;
+    width:200px; 
+}
+#email{
+    height: 40px;
+    width:200px;
+}
+#message{
+    height:200px;
+    width:500px;
+}
+
+
+
+#toplinks{
+    float:right;
+    padding-right:30px;
+    margin-top:20px;
+}
+
+#contact{
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+#image{
+    margin-right:50px;
+}
+
+input {
+   padding-left: 0;
+   line-height: 1em;
+}
+#form{display:none;}
+
+
+#toplinks ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#toplinks li {
+    float: left;
+}

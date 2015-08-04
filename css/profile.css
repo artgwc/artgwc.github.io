@@ -1,0 +1,108 @@
+#header{
+background-color: #1F0F00;
+}
+
+#toplinks a:link, a:visited {
+    display: block;
+    width: 120px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #990000;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#toplinks a:hover, a:active {
+    background-color: #990000;
+}
+
+body{
+background-color:#FFFFFF;
+}
+#username{
+   font-size: 40px;
+    text-align:center;
+    
+}
+#header{
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+#logo{
+    margin-left: 80px;
+    
+}
+#image{
+    float: right;
+    padding-right:50px; 
+}
+#text{
+    padding-left:60px;
+    padding-right:50px;
+    padding-top: 15px;
+    padding-bottom:30px;
+    margin-left: 100px;
+    margin-right: 500px;
+    text-indent: 20px;
+    
+}
+#text h2{
+    text-indent: 0px;
+}
+#portfolio{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#contact{
+    margin-left:100px;
+}
+
+#links{
+    float:right;
+}
+#toplinks{
+    float:right;
+    padding-right:30px;
+    padding-top:20px;
+}
+#portfolio{
+    text-align: center;
+}
+#contact{
+    float:left;
+    padding-left:100px;
+}
+#image{
+    margin-right:50px;
+}
+
+input {
+   padding-left: 0;
+   line-height: 1em;
+}
+#form{display:none;}
+
+#uploadedImage {
+    display: none;
+}
+
+#uploadedImages img, #profileimage {
+    width: 300px;
+}
+#toplinks ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#toplinks li {
+    float: left;
+}
+#uploadedImages img{
+    padding-bottom:10px;
+    padding-left:10px;
+}

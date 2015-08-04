@@ -1,0 +1,117 @@
+/* CSS FILE FOR FINAL PROJECT */
+
+
+#section.module.content {
+  padding: 40px 0;
+}
+
+.description {
+    color: #BFBFBF;
+    text-align: center;
+}
+
+a:link{
+  color:#9C988F;
+}
+a:visited{
+  color:#8F939C:
+}
+ 
+button, input, select, textarea, p, form {
+  font-family : "Droid Sans", "Arial";
+  font-size   : 100%;
+}
+
+#logIn {
+  background-image: url("../images/bg.jpg");
+  background-size: 90%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  padding-top:70px;
+  padding-bottom:70px;
+}
+
+#logform {
+  padding-top:20px;
+}
+
+ .showme{ 
+display: none;
+}
+.showhim:hover .showme{
+display : block;
+padding-left: 48%;
+color: #BFBFBF;
+}
+
+.Chevron{
+    padding-left: 50%;
+    z-index: -1;
+    position:relative;
+    display:block;
+    height:10px;/*height should be double border*/
+}
+.Chevron:before, .Chevron:after{
+    position:absolute;
+    display:block;
+    content:"";
+    border:15px solid transparent;/*adjust size*/
+}
+/*Change four 'top' values below to rotate (top/right/bottom/left)*/
+.Chevron:before{
+    top:0;
+    border-top-color:white;/*Chevron Color*/
+}
+.Chevron:after{
+    top:-5px;/*adjust thickness*/
+    border-top-color: black;
+}
+
+#parallax {
+  padding-top: 20px;
+}
+
+section.module.parallax {
+  height: 300px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+section.module.parallax h1 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 50px;
+  line-height: 300px;
+  font-weight: 100;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+section.module.parallax-1 {
+  background-image: url("../images/Music Logo.jpg");
+}
+
+section.module.parallax-2 {
+  background-image: url("../images/colorp.jpg");
+}
+
+section.module.parallax-3 {
+  background-image: url("../images/cambig.jpg");
+}
+
+@media all and (min-width: 600px) {
+  section.module h1 {
+    font-size: 42px;
+  }
+  section.module p {
+    font-size: 20px;
+  }
+  section.module.parallax h2 {
+    font-size: 150px;
+  }
+}
+@media all and (min-width: 960px) {
+  section.module.parallax h1 {
+    font-size: 200px;
+  }
+}

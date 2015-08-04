@@ -1,0 +1,62 @@
+#header{   
+    background-color: #1F0F00;
+}
+
+#toplinks a:link, a:visited {
+    display: block;
+    width: 120px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #990000;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#toplinks a:hover, a:active {
+    background-color: #990000;
+}
+
+body{
+background-color:#FFFFFF;
+}
+
+#header{
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+#logo{
+    margin-left: 80px;
+    
+}
+
+#links{
+    float:right;
+}
+#toplinks{
+    float:right;
+    padding-right:30px;
+    padding-top:20px;
+}
+
+#toplinks ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#toplinks li {
+    float: left;
+}
+
+#contact {
+    margin-left:900px;
+}
+
+#artists img{
+    padding-bottom:10px;
+    padding-left: 10px;
+}
