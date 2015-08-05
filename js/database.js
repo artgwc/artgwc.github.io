@@ -94,7 +94,7 @@ function createNewUser(database, user) {
             "skills": "",
             "interests": "",
             "profilePic": "http://placehold.it/300x300&text="+user,
-            "images": []        
+            "images": []      
         }
     saveProfileData(user);
     return database;
